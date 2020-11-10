@@ -339,7 +339,6 @@ $li-spacing-x-md: spacer(3) * 2;
 // FOOTER
 // TODO: Match margins / padding to other elements
 .li-footer {
-    color: $white;
 
     &-newsletter {
         margin-left: $grid-gutter-width / 2;
@@ -509,19 +508,6 @@ $li-spacing-x-md: spacer(3) * 2;
         left: 0;
         transform: unset;
     }
-}
-
-.li-location {
-    margin-top: spacer(5);
-    
-    &:first-child {
-        margin-top: spacer(4);
-    }
-
-    &-hours {
-        letter-spacing: $li-letter-spacing;
-    }
-
 }
 
 .li-split-background {

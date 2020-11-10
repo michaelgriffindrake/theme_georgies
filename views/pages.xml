@@ -334,11 +334,12 @@
             <div class="container">
               <h1 class="px-2 px-sm-0 mt-4">Serving the Pacific Northwest</h1>
               <div class="li-locations">
-                <div class="li-location">
+                <div class="mt-4 mb-5">
                   <div class="px-2 px-sm-0">
                     <h2>Portland Store</h2>
                     <div class="row mt-4">
-                      <div class="col-lg-auto li-location-hours"><em><strong>Monday - Saturday  9am - 5pm</strong></em></div>
+                      <div class="col-lg-auto"><em>
+                          <div class="h6"><strong>Monday - Saturday  9am - 5pm</strong></div></em></div>
                       <div class="col-lg-auto d-none d-lg-block px-0"></div>
                     </div>
                     <div class="mt-1"><a href="https://www.google.com/maps/place/756+NE+Lombard,+Portland,+OR+97211" target="_blank">756 NE Lombard, Portland, OR 97211</a></div>
@@ -358,15 +359,18 @@
                     <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAZP5LInbJZ-Ht7s64OMunME4GLAu3NNS4&amp;q=756 NE Lombard, Portland, OR 97211"></iframe>
                   </div>
                 </div>
-                <div class="li-location">
+                <div class="mt-4 mb-5">
                   <div class="px-2 px-sm-0">
                     <h2>Eugene Store</h2>
                     <div class="row mt-4">
-                      <div class="col-lg-auto li-location-hours"><em><strong>Tuesday - Friday  9am-5pm</strong></em></div>
+                      <div class="col-lg-auto"><em>
+                          <div class="h6"><strong>Tuesday - Friday  9am-5pm</strong></div></em></div>
                       <div class="col-lg-auto d-none d-lg-block px-0">&#8226;</div>
-                      <div class="col-lg-auto li-location-hours"><em><strong>Saturday  10am-4pm</strong></em></div>
+                      <div class="col-lg-auto"><em>
+                          <div class="h6"><strong>Saturday  10am-4pm</strong></div></em></div>
                       <div class="col-lg-auto d-none d-lg-block px-0">&#8226;</div>
-                      <div class="col-lg-auto li-location-hours"><em><strong>Sunday &amp;amp; Monday  CLOSED</strong></em></div>
+                      <div class="col-lg-auto"><em>
+                          <div class="h6"><strong>Sunday &amp;amp; Monday  CLOSED</strong></div></em></div>
                       <div class="col-lg-auto d-none d-lg-block px-0"></div>
                     </div>
                     <div class="mt-1"><a href="https://www.google.com/maps/place/1471+Railroad+Blvd+%239,+Eugene,+OR+97402" target="_blank">1471 Railroad Blvd #9, Eugene, OR 97402</a></div>
@@ -388,7 +392,7 @@
                 </div>
               </div>
             </div>
-            <section class="bg-light mt-5 py-5 px-2 px-sm-0">
+            <section class="bg-light py-5 px-2 px-sm-0">
               <div class="container">
                 <h2>Deliveries from Portland?</h2>
                 <h6 class="text-uppercase"><em>All Georgies' deliveries are subject to change based on weather conditions. Salem and Seattle delivery routes may be rescheduled based on low demand or high demand for deliveries in other areas.</em></h6>
@@ -1947,44 +1951,7 @@
                   <div class="col-md">
                     <div class="px-2 pr-md-0 pl-md-2 pl-lg-3 py-5 li-split-background-item">
             <p class="mt-2"><strong>Fields marked with an asterisk (*) are required.</strong></p>
-            <form class="mt-3">
-              <div class="form-group">
-                <label for="#newsletterEmail">Email Address</label>
-                <input class="form-control" type="email" name="email" aria-describedby="helpEmail"></input><small class="form-text text-muted" id="helpEmail">We'll never share your email</small>
-              </div>
-              <div class="form-group">
-                <label for="newsFirstName">First Name</label>
-                <input class="form-control" id="newsFirstName" name="firstName"></input>
-              </div>
-              <div class="form-group">
-                <label for="newsLastName">Last Name</label>
-                <input class="form-control" id="newsLastName" name="lastName"></input>
-              </div>
-              <div class="form-group mt">
-                <label>Interested In:</label>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="interestPortland" id="newsPortland"></input>
-                  <label class="form-check-label" for="#newsPortland">Portland</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="interestEugene" id="newsEugene"></input>
-                  <label class="form-check-label" for="#newsEugene">Eugene</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="insterestPromotions" id="newsPromotions"></input>
-                  <label class="form-check-label" for="#newsPromotions">Promotions and Sales</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="interestEvents" id="newsEvents"></input>
-                  <label class="form-check-label" for="#newsEvents">Gallery and Events</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="interestDistributors" id="newsDistributors"></input>
-                  <label class="form-check-label" for="#newsDistributors">Distributorship</label>
-                </div>
-              </div>
-              <button class="btn btn-outline-primary" type="submit">Sign up for Newsletter</button>
-            </form>
+            <div class="oe_structure"></div>
                     </div>
                   </div>
                 </div>
@@ -2011,7 +1978,7 @@
         
         <div class="li-main-splash">
           <div class="li-main-splash-image">
-            <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/gray-cb9ae39ede.png"></img>
+            <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/georgies/DSC_9478georgiesprod-1a609d1598.jpg"></img>
           </div>
           <div class="container li-main-splash-content">
             <div class="px-2 px-sm-0 py-5 li-main-splash-message">
@@ -2033,9 +2000,9 @@
           </section>
         </section>
         <section class="pt-4 mb-4 mb-sm-5">
-          <div class="container">
+          <div class="container oe_structure">
             <h2>Announcements</h2>
-            <div class="mt-4">
+            <section class="mt-4">
               <div class="row no-gutters bg-light">
                 <div class="col-sm-auto"><img class="li-announcement-image" src="/theme_georgies/static/img/gray-cb9ae39ede.png" alt="Image Alt Here"></img></div>
                 <div class="col-md align-self-center">
@@ -2046,8 +2013,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="mt-4">
+            </section>
+            <section class="mt-4">
               <div class="row no-gutters bg-light">
                 <div class="col-sm-auto"><img class="li-announcement-image" src="/theme_georgies/static/img/gray-narrow-a08560303c.png" alt="Image Alt Here"></img></div>
                 <div class="col-md align-self-center">
@@ -2058,8 +2025,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="mt-4">
+            </section>
+            <section class="mt-4">
               <div class="row no-gutters bg-light">
                 <div class="col-sm-auto"><img class="li-announcement-image" src="/theme_georgies/static/img/gray-wide-79cb215adc.png" alt="Image Alt Here"></img></div>
                 <div class="col-md align-self-center">
@@ -2070,11 +2037,11 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
         </section>
         <section class="li-main-calls-to-actions">
-          <div class="py-3 py-md-5 li-call__dark">
+          <section class="py-3 py-md-5 li-call__dark">
             <div class="container">
               <div class="row">
                 <div class="col-md-7 align-self-center">
@@ -2094,8 +2061,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="py-3 py-md-5">
+          </section>
+          <section class="py-3 py-md-5">
             <div class="container">
               <div class="row">
                 <div class="col-md-7 align-self-center order-md-last li-call-copy__rtl">
@@ -2115,8 +2082,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="py-3 py-md-5 li-call__dark">
+          </section>
+          <section class="py-3 py-md-5 li-call__dark">
             <div class="container">
               <div class="row">
                 <div class="col-md-7 align-self-center">
@@ -2136,7 +2103,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </section>
         </section>
         <section class="pb-5 pt-5">
           <div class="container">
@@ -2161,35 +2128,53 @@
     </xpath>
   </template>
 
-  <!-- Replace contact page with our custom one -->
-  <template id="georgies_contact_page" inherit_id="website.contactus">
-    <xpath expr="//div[@id='wrap']" position="replace">
-      <div id="wrap">
-        
-        <div class="li-split-background">
-          <div class="container">
-            <div class="row">
-              <div class="col-md">
-                <div class="px-2 pl-md-0 pr-md-2 pr-lg-3 py-5 li-split-background-item">
-        <h1>What's on your mind?</h1>
-        <p class="mt-3 mt-sm-4"> <strong>Call the Portland store at : <br></br><a href="tel:503.283.1353">503.283.1353</a> or <a href="tel:800.999.2529">800.999.2529</a></strong></p>
-        <p class="mt-4"><strong>Call the Eugene store at: <br></br><a href="tel:541.338.7654">541.338.7654</a> or <a href="tel:866.234.2529">866.234.2529</a></strong></p>
-        <p class="mt-4">To send us your questions, comments or suggestions, please use the following form. We ask for your phone number only because sometimes it's easier and faster to discuss technical clay, glaze, or equipment questions over the phone rather than email. In that case we'll call you (at no charge to you for long-distance calls).</p>
-        <p class="mt-4"> <strong>Please note: we reply to most email questions within one or two business days (Monday through Friday). Our offices are closed on Saturdays and Sundays.</strong></p>
-        <p class="mt-4">Questions about equipment, raw materials, glaze chemistry, or other more complex subjects may take longer, depending on how long we need to find the answers for you.</p>
-                </div>
-              </div>
-              <div class="col-md">
-                <div class="px-2 pr-md-0 pl-md-2 pl-lg-3 py-5 li-split-background-item">
-        <div class="oe_structure"></div>
+  <!-- Add Contact Page -->
+  <record id="contact_page" model="website.page">
+    <field name="name">Contact</field>
+    <field name="website_published">True</field>
+    <field name="url">/contact</field>
+    <field name="type">qweb</field>
+    <field name="key">theme_georgies.contact_page</field>
+    <field name="arch" type="xml">
+      <t t-name="theme_georgies.contact_page_template">
+        <t t-call="website.layout">
+          <div class="wrap">
+            
+            <div class="li-split-background">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md">
+                    <div class="px-2 pl-md-0 pr-md-2 pr-lg-3 py-5 li-split-background-item">
+            <h1>What's on your mind?</h1>
+            <p class="mt-3 mt-sm-4"> <strong>Call the Portland store at : <br></br><a href="tel:503.283.1353">503.283.1353</a> or <a href="tel:800.999.2529">800.999.2529</a></strong></p>
+            <p class="mt-4"><strong>Call the Eugene store at: <br></br><a href="tel:541.338.7654">541.338.7654</a> or <a href="tel:866.234.2529">866.234.2529</a></strong></p>
+            <p class="mt-4">To send us your questions, comments or suggestions, please use the following form. We ask for your phone number only because sometimes it's easier and faster to discuss technical clay, glaze, or equipment questions over the phone rather than email. In that case we'll call you (at no charge to you for long-distance calls).</p>
+            <p class="mt-4"> <strong>Please note: we reply to most email questions within one or two business days (Monday through Friday). Our offices are closed on Saturdays and Sundays.</strong></p>
+            <p class="mt-4">Questions about equipment, raw materials, glaze chemistry, or other more complex subjects may take longer, depending on how long we need to find the answers for you.</p>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="px-2 pr-md-0 pl-md-2 pl-lg-3 py-5 li-split-background-item">
+            <p class="mt-2"><strong>Fields marked with an asterisk (*) are required.</strong></p>
+            <div class="oe_structure"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </xpath>
-  </template>
+        </t>
+      </t>
+    </field>
+  </record>
+
+  <!-- Add contact to nav menu -->
+  <record id="contact_page_link" model="website.menu">
+    <field name="name">Contact</field>
+    <field name="page_id" ref="contact_page"/>
+    <field name="parent_id" ref="website.main_menu"/>
+    <field name="sequence" type="int">99</field>
+  </record>
 
   <!-- Replace 404 page -->
   <template id="georgies_404_page" inherit_id="http_routing.404">

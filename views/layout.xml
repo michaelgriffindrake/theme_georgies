@@ -45,7 +45,13 @@
         </li>        
       </ul>
     </xpath>
+  </template>
 
+  <!-- Customize logo Padding -->
+  <template id="georgies_navbar_logo" inherit_id="website.layout_logo_show" name="Georgies Navbar Logo">
+    <xpath expr="//header//a[hasclass('logo')]" position="attributes">
+      <attribute name="class" add="pr-2" separator=" "/>
+    </xpath>
   </template>
 
   <!-- Customize footer  -->
@@ -54,7 +60,7 @@
     <!-- Replace Odoo's footer with our custom one  -->
     <xpath expr="//div[@id='wrapwrap']/footer" position="replace">
       
-      <footer class="bg-primary py-4 li-footer">
+      <footer class="bg-primary py-4 li-footer text-white">
         <div class="container">
           <div class="mt-2 li-footer-newsletter">
             <div class="row align-items-center border border-light">
@@ -68,12 +74,12 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-6">
-              <div class="border border-light py-2 py-lg-3 px-2 px-lg-3"><strong>Georgies of Portland</strong><br></br><a href="https://www.google.com/maps/place/Georgie's+Ceramic+%26+Clay+Co/@45.5769829,-122.6593594,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a6560965f631:0xe8c3d7caa703521!8m2!3d45.5769829!4d-122.6571707">756 NE Lombard, Portland OR 97211</a><br></br><br></br><strong> <a href="tel: 503.283.1253">503.283.1253</a> &#8226; <a href="tel: 800.999.2529">800.999.CLAY</a> &#8226; FAX 503.283.1387</strong><br></br><br></br>
+              <div class="border border-light py-2 py-lg-3 px-2 px-lg-3"><strong>Georgies of Portland</strong><br></br><a href="https://www.google.com/maps/place/Georgie's+Ceramic+%26+Clay+Co/@45.5769829,-122.6593594,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a6560965f631:0xe8c3d7caa703521!8m2!3d45.5769829!4d-122.6571707" target="_blank">756 NE Lombard, Portland OR 97211</a><br></br><br></br><strong> <a href="tel:503.283.1253">503.283.1253</a> &#8226; <a href="tel:800.999.2529">800.999.CLAY</a> &#8226; FAX 503.283.1387</strong><br></br><br></br>
                 <!-- TODO: Create and apply style class--><strong>Portland Store Hours: </strong><em>Monday - Saturday </em>9am to 5pm PST<br></br><strong>Business Office Hours: </strong><em>Monday - Friday </em>9am to 5pm PST<br></br>
               </div>
             </div>
             <div class="col-md-6">
-              <div class="border border-light py-2 py-lg-3 px-2 px-lg-3 mt-3 mt-md-0"><strong>Georgies of Eugene</strong><br></br><a href="https://www.google.com/maps/place/Georgies+Ceramic+%26+Clay+Co/@44.0626762,-123.1183299,17z/data=!3m1!4b1!4m5!3m4!1s0x54c11dde91ea6111:0x35b776690b94aba2!8m2!3d44.0626762!4d-123.1161412">1471 Railroad Blvd #9, Eugene OR 97402</a><br></br><br></br><strong> <a href="tel:541.338.7654">541.338.7654</a> &#8226; <a href="tel:866.234.2529">866.234.CLAY</a> &#8226; FAX 541.338.7565</strong><br></br><br></br><strong>Eugene Store Hours: </strong><em>Tuesday - Friday </em>9am to 5pm PST &#8226; <em>Saturday </em>10am to 4pm PST &#8226; <em>Sunday &amp; Monday </em>CLOSED<br></br></div>
+              <div class="border border-light py-2 py-lg-3 px-2 px-lg-3 mt-3 mt-md-0"><strong>Georgies of Eugene</strong><br></br><a href="https://www.google.com/maps/place/Georgies+Ceramic+%26+Clay+Co/@44.0626762,-123.1183299,17z/data=!3m1!4b1!4m5!3m4!1s0x54c11dde91ea6111:0x35b776690b94aba2!8m2!3d44.0626762!4d-123.1161412" target="_blank">1471 Railroad Blvd #9, Eugene OR 97402</a><br></br><br></br><strong> <a href="tel:541.338.7654">541.338.7654</a> &#8226; <a href="tel:866.234.2529">866.234.CLAY</a> &#8226; FAX 541.338.7565</strong><br></br><br></br><strong>Eugene Store Hours: </strong><em>Tuesday - Friday </em>9am to 5pm PST &#8226; <em>Saturday </em>10am to 4pm PST &#8226; <em>Sunday &amp; Monday </em>CLOSED<br></br></div>
             </div>
           </div>
           <div class="row mt-4 justify-content-center li-type-attention">
@@ -81,10 +87,10 @@
               <div class="pb-2">Follow us!</div>
             </div>
             <div class="col-sm-auto">
-              <div class="pb-2 text-center">Portland<a class="li-footer-social" href="#"><img class="li-icon-social" src="/theme_georgies/static/img/icons/facebook-8e0b498d9f.svg"></img></a><a class="li-footer-social" href="#"><img class="li-icon-social" src="/theme_georgies/static/img/icons/instagram-acfb765a8e.svg"></img></a></div>
+              <div class="pb-2 text-center">Portland<a class="li-footer-social" href="https://www.facebook.com/georgies.ceramic/" target="_blank"><img class="li-icon-social" src="/theme_georgies/static/img/icons/facebook-8e0b498d9f.svg"></img></a><a class="li-footer-social" href="https://www.instagram.com/georgiesceramic/" target="_blank"><img class="li-icon-social" src="/theme_georgies/static/img/icons/instagram-acfb765a8e.svg"></img></a></div>
             </div>
             <div class="col-sm-auto">
-              <div class="pb-2 text-center">Eugene<a class="li-footer-social" href="#"><img class="li-icon-social" src="/theme_georgies/static/img/icons/facebook-8e0b498d9f.svg"></img></a><a class="li-footer-social" href="#"><img class="li-icon-social" src="/theme_georgies/static/img/icons/instagram-acfb765a8e.svg"></img></a></div>
+              <div class="pb-2 text-center">Eugene<a class="li-footer-social" href="https://www.facebook.com/georgies.eugene/" target="_blank"><img class="li-icon-social" src="/theme_georgies/static/img/icons/facebook-8e0b498d9f.svg"></img></a><a class="li-footer-social" href="https://www.instagram.com/georgiesofeugene/" target="_blank"><img class="li-icon-social" src="/theme_georgies/static/img/icons/instagram-acfb765a8e.svg"></img></a></div>
             </div>
           </div>
           <div class="row mt-3">
@@ -106,11 +112,11 @@
       
       <div class="li-main-splash li-main-splash__short">
         <div class="li-main-splash-image">
-          <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/gray-cb9ae39ede.png"></img>
+          <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/georgies/DSC_5329clayboxees-929cd43c80.jpg"></img>
         </div>
         <div class="container li-main-splash-content">
           <div class="px-2 px-sm-0 py-5 li-main-splash-message">
-            <h1 class="display-3-white">Heading here. It can be decently long and will wrap arround</h1>
+            <h1 class="display-3-white">Heading here. It can be decently long and will wrap around</h1>
           </div>
         </div>
       </div>
@@ -696,11 +702,11 @@
       
       <div class="li-main-splash li-main-splash__short">
         <div class="li-main-splash-image">
-          <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/gray-cb9ae39ede.png"></img>
+          <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/georgies/DSC_5329clayboxees-929cd43c80.jpg"></img>
         </div>
         <div class="container li-main-splash-content">
           <div class="px-2 px-sm-0 py-5 li-main-splash-message">
-            <h1 class="display-3-white">Heading here. It can be decently long and will wrap arround</h1>
+            <h1 class="display-3-white">Heading here. It can be decently long and will wrap around</h1>
           </div>
         </div>
       </div>

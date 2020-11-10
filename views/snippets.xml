@@ -244,7 +244,7 @@
   <!-- Georgies Announcement Section Item -->
   <template id="s_announcement_section_item" name="Georgies Announcement Section Item">
     
-    <div class="mt-4">
+    <section class="mt-4">
       <div class="row no-gutters bg-light">
         <div class="col-sm-auto"><img class="li-announcement-image" src="/theme_georgies/static/img/gray-cb9ae39ede.png" alt="Image Alt Here"></img></div>
         <div class="col-md align-self-center">
@@ -255,13 +255,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </template>
 
   <!-- Georgies Call to Action with Image-->
   <template id="s_main_call_to_action" name="Georgies Main Call to Action with Image">
     
-    <div class="py-3 py-md-5 li-call__dark">
+    <section class="py-3 py-md-5 li-call__dark">
       <div class="container">
         <div class="row">
           <div class="col-md-7 align-self-center">
@@ -281,7 +281,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </template>
 
   <!-- Add all of our custom snippets to the snippet editor panel -->
