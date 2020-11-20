@@ -242,7 +242,7 @@
   </template>
   
   <!-- Georgies Announcement Section Item -->
-  <template id="s_announcement_section_item" name="Georgies Announcement Section Item">
+  <template id="s_announcement_section_item" name="Georgies Announcement Section Item Snippet">
     
     <section class="mt-4">
       <div class="row no-gutters bg-light">
@@ -259,7 +259,7 @@
   </template>
 
   <!-- Georgies Call to Action with Image-->
-  <template id="s_main_call_to_action" name="Georgies Main Call to Action with Image">
+  <template id="s_call_to_action" name="Georgies Main Call to Action with Image Snippet">
     
     <section class="py-3 py-md-5 li-call__dark">
       <div class="container">
@@ -284,12 +284,47 @@
     </section>
   </template>
 
+  <!-- Georgies Splash Snippet -->
+  <template id="s_splash" name="Georgies Main Splash Snippet">
+    
+    <section class="li-splash li_s_splash li-splash__short">
+      <div class="li-splash-background">
+        <div class="li-splash-background-overlay"></div>
+        <div class="li-splash-background-image" style="background-image: url(/theme_georgies/static/img/georgies/DSC_5329clayboxees-929cd43c80.jpg)"></div>
+      </div>
+      <div class="container li-splash-content">
+        <div class="px-2 px-sm-0 py-5 li-splash-heading">
+          <h1 class="display-3-white">Heading here. It can be decently long and will wrap around</h1>
+          <div class="li-splash-actions"><a class="btn btn-outline-light" href="#">Call to Action Here</a></div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <!-- Georgies Spacer Snippet -->
+  <!-- <template id="s_spacer" name="Georgies Spacer Snippet">
+  </template> -->
+
+  <!-- Georgies Dual Image / Text Snippet -->
+  <!-- <template id="s_dual_image_text" name="Georgies Dual Image & Text Snippet">
+  </template> -->
+
+  <!-- Georgies Split Background Snippet -->
+  <!-- <template id="s_split_background" name="Georgies Split Background Snippet">
+  </template> -->
+
+  <!-- Georgies Simple Card Snippet -->
+  <!-- <template id="s_simple_card" name="Georgies Simple Card">
+  </template> -->
+
   <!-- Add all of our custom snippets to the snippet editor panel -->
   <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
-    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]/t[1]" position="before">
       <t t-snippet="theme_georgies.s_announcement_in_page" t-thumbnail="/theme_georgies/static/img/gray-cb9ae39ede.png"/>
       <t t-snippet="theme_georgies.s_announcement_section_item" t-thumbnail="/theme_georgies/static/img/gray-cb9ae39ede.png"/>
-      <t t-snippet="theme_georgies.s_main_call_to_action" t-thumbnail="/theme_georgies/static/img/gray-cb9ae39ede.png"/>
+      <t t-snippet="theme_georgies.s_call_to_action" t-thumbnail="/theme_georgies/static/img/gray-cb9ae39ede.png"/>
+      <t t-snippet="theme_georgies.s_splash" t-thumbnail="/theme_georgies/static/img/gray-cb9ae39ede.png"/>
+
     </xpath>
   </template>
 

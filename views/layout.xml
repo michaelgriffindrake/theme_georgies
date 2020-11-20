@@ -110,16 +110,18 @@
     <!-- Insert our header section etc. before the products search / pager section -->
     <xpath expr="//div[@id='wrap']//div[hasclass('oe_structure')]" position="inside">
       
-      <div class="li-main-splash li-main-splash__short">
-        <div class="li-main-splash-image">
-          <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/georgies/DSC_5329clayboxees-929cd43c80.jpg"></img>
+      <section class="li-splash li_s_splash li-splash__short">
+        <div class="li-splash-background">
+          <div class="li-splash-background-overlay"></div>
+          <div class="li-splash-background-image" style="background-image: url(/theme_georgies/static/img/georgies/DSC_5329clayboxees-929cd43c80.jpg)"></div>
         </div>
-        <div class="container li-main-splash-content">
-          <div class="px-2 px-sm-0 py-5 li-main-splash-message">
+        <div class="container li-splash-content">
+          <div class="px-2 px-sm-0 py-5 li-splash-heading">
             <h1 class="display-3-white">Heading here. It can be decently long and will wrap around</h1>
+            <div class="li-splash-actions"><a class="btn btn-outline-light" href="#">Call to Action Here</a></div>
           </div>
         </div>
-      </div>
+      </section>
     </xpath>
 
     <!-- Modify Odoo's Search / Pagination section -->
@@ -700,16 +702,18 @@
   <template id="georgies_events_index" inherit_id="website_event.index" name="Georgies Event Index">
     <xpath expr="//t[@t-call='website_event.index_topbar']" position="before">
       
-      <div class="li-main-splash li-main-splash__short">
-        <div class="li-main-splash-image">
-          <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/georgies/DSC_5329clayboxees-929cd43c80.jpg"></img>
+      <section class="li-splash li_s_splash li-splash__short">
+        <div class="li-splash-background">
+          <div class="li-splash-background-overlay"></div>
+          <div class="li-splash-background-image" style="background-image: url(/theme_georgies/static/img/georgies/DSC_5329clayboxees-929cd43c80.jpg)"></div>
         </div>
-        <div class="container li-main-splash-content">
-          <div class="px-2 px-sm-0 py-5 li-main-splash-message">
+        <div class="container li-splash-content">
+          <div class="px-2 px-sm-0 py-5 li-splash-heading">
             <h1 class="display-3-white">Heading here. It can be decently long and will wrap around</h1>
+            <div class="li-splash-actions"><a class="btn btn-outline-light" href="#">Call to Action Here</a></div>
           </div>
         </div>
-      </div>
+      </section>
     </xpath>
   </template>
 

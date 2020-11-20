@@ -20,6 +20,7 @@
     'website_theme_install',
     'website_sale',
     'website_sale_comparison',
+    'website_sale_wishlist',
     'website_blog',
     'website_event',
     'website_event_sale',

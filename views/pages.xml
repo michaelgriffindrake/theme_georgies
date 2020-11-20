@@ -445,7 +445,7 @@
             
             <div class="container pb-4">
               <h1 class="mt-4">Georgies Glaze Distributors</h1>
-              <div class="h6 li-type-attention"><span class="d-none d-sm-inline">Click on a state to find your closest Georgies distributor.</span><span class="d-sm-none">Listed below are Georgies distributors by state.</span><br></br> Canadian Distributors are listed at the bottom of the page. </div>
+              <div class="h6 li-type-attention"><span class="d-none d-sm-inline"><strong>Click on a state</strong> to find your closest Georgies distributor.</span><span class="d-sm-none">Listed below are Georgies distributors by state.</span><br></br> Canadian Distributors are listed at the bottom of the page. </div>
               <div class="row pt-3">
                 <div class="d-none d-sm-block col-lg-9">
                   <div class="pr-2 li-distributor-map">
@@ -1976,17 +1976,18 @@
     <xpath expr="//div[@id='wrap']" position="replace">
       <div id="wrap" class="oe_structure">
         
-        <div class="li-main-splash">
-          <div class="li-main-splash-image">
-            <div class="li-main-splash-overlay"></div><img src="/theme_georgies/static/img/georgies/DSC_9478georgiesprod-1a609d1598.jpg"></img>
+        <section class="li-splash li_s_splash">
+          <div class="li-splash-background">
+            <div class="li-splash-background-overlay"></div>
+            <div class="li-splash-background-image" style="background-image: url(/theme_georgies/static/img/georgies/DSC_9478georgiesprod-1a609d1598.jpg)"></div>
           </div>
-          <div class="container li-main-splash-content">
-            <div class="px-2 px-sm-0 py-5 li-main-splash-message">
+          <div class="container li-splash-content">
+            <div class="px-2 px-sm-0 py-5 li-splash-heading">
               <h1 class="display-3-white">Serving sculpture and ceramic artists in the Pacific Northwest and beyond since 1965</h1>
-              <div class="li-main-splash-actions"><a class="btn btn-outline-light" href="#">Check out our Products &gt;</a></div>
+              <div class="li-splash-actions"><a class="btn btn-outline-light" href="#">Check out our Products &gt;</a></div>
             </div>
           </div>
-        </div>
+        </section>
         <section class="mt-3">
           <section class="li-announcement-in-page pt-3 pb-3">
             <div class="container">

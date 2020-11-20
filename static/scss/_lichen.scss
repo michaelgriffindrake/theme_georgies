@@ -434,7 +434,7 @@ $li-spacing-x-md: spacer(3) * 2;
 }
 
 // Main page splash
-.li-main-splash {
+.li-splash {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -450,23 +450,27 @@ $li-spacing-x-md: spacer(3) * 2;
         min-height: 20rem;
     }
 
-    &-image {
+    &-background {
         position: absolute;
         top: 0; left: 0; right: 0; bottom: 0;
         z-index: 0;
 
-        img {
-            object-fit: cover;
+        &-overlay{
+            position: absolute;
+            pointer-events: none;
+            width: 100%;
+            height: 100%;
+            background: black;
+            opacity: .5;
+        }
+        &-image {
+            background-size: cover;
             width: 100%;
             height: 100%;
         }
-    }
-    &-overlay{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: black;
-        opacity: .5;
+        &-image__fixed {
+            background-attachment: fixed;
+        }
     }
     &-content{
         position: relative;
